@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+        background-color:#ffff;
+    }
+    .navColor{
+        background-color: #24252A;
+    }
+}
