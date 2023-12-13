@@ -1,5 +1,5 @@
 <template>
-<div class="w-full mt-24">
+<div class="w-full lg:mt-10">
     <TouchSlider/>    
 </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :slidesPerView="'auto'" :coverflowEffect="{
-        rotate: 50,
+        rotate: 40,
         stretch: 0,
         depth: 100,
         modifier: 1,
@@ -11,6 +11,10 @@
         <swiper-slide><img src="../assets/images/Slider/slide2.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
         <swiper-slide><img src="../assets/images/Slider/slide3.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
         <swiper-slide><img src="../assets/images/Slider/slide4.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
+        <swiper-slide><img src="../assets/images/ProductServices00001.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
+        <swiper-slide><img src="../assets/images/ProductServices00002.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
+        <swiper-slide><img src="../assets/images/ProductServices00003.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
+        <swiper-slide><img src="../assets/images/ProductServices00004.jpg" /><div class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, inventore.</div></swiper-slide>
     </swiper>
     <div class="text-center w-full my-6">
         <FastButton text="show More" color="red"/>

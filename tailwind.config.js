@@ -8,8 +8,11 @@ export default {
     extend: {
       backgroundImage:{
         'header-bacground':"url('./src/assets/images/modern-skyscraper-with-many-windows-during-daytime.jpg')",
-        'Consultion-background':"url('./src/assets/images/mens-shaking-handshake.jpg')"
-      }
+        'Consultion-background':"url('./src/assets/images/ProductServices00004.jpg')",
+        'bg-product-service-f':"url('./src/assets/images/ProductServices00002.jpg')",
+        'bg-product-service-s':"url('./src/assets/images/ProductServices00001.jpg')",
+        'bg-product-service-t':"url('./src/assets/images/ProductServices00003.jpg')",
+      }//
     },
     fontFamily:{
       Oswald:["Oswald,sans-serif"],
